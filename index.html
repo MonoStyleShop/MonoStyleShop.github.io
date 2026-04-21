@@ -12,7 +12,7 @@
         box-sizing: border-box;
     }
 
-    /* НОВИЙ ФОН (радіальний градієнт + анімація диму) */
+    /* ФОН (градієнт + анімований дим) */
     body {
         background: radial-gradient(circle at center, #1a1a1a 0%, #050505 70%);
         font-family: 'Segoe UI', 'Poppins', sans-serif;
@@ -103,7 +103,7 @@
         margin-bottom: 30px;
     }
 
-    /* Список соцмереж */
+    /* СПИСОК СОЦМЕРЕЖ */
     .social-list {
         list-style: none;
         display: flex;
@@ -179,6 +179,7 @@
     /* Кольори іконок */
     [data-social="instagram"] .social-icon { color: #E4405F; }
     [data-social="telegram"] .social-icon { color: #26A5E4; }
+    [data-social="tiktok"] .social-icon { color: #000000; }
 
     /* Ripple */
     .ripple {
@@ -230,17 +231,28 @@
     <div class="brand">MONOSTYLE</div>
 
     <ul class="social-list">
+        <!-- Instagram -->
         <li class="social-item" data-social="instagram">
             <div class="social-icon"><i class="fab fa-instagram"></i></div>
             <span class="social-name">Instagram</span>
             <a href="https://www.instagram.com/monostyle_shops/" target="_blank" rel="noopener noreferrer" class="social-link">→ перейти</a>
             <i class="fas fa-copy copy-icon" data-copy="https://www.instagram.com/monostyle_shops/"></i>
         </li>
+
+        <!-- Telegram -->
         <li class="social-item" data-social="telegram">
             <div class="social-icon"><i class="fab fa-telegram-plane"></i></div>
             <span class="social-name">Telegram</span>
             <a href="https://t.me/+uq_uHi2QslBlNWMy" target="_blank" rel="noopener noreferrer" class="social-link">→ перейти</a>
             <i class="fas fa-copy copy-icon" data-copy="https://t.me/+uq_uHi2QslBlNWMy"></i>
+        </li>
+
+        <!-- TikTok (додано) -->
+        <li class="social-item" data-social="tiktok">
+            <div class="social-icon"><i class="fab fa-tiktok"></i></div>
+            <span class="social-name">TikTok</span>
+            <a href="https://www.tiktok.com/@monostyle_shop" target="_blank" rel="noopener noreferrer" class="social-link">→ перейти</a>
+            <i class="fas fa-copy copy-icon" data-copy="https://www.tiktok.com/@monostyle_shop"></i>
         </li>
     </ul>
 </div>
